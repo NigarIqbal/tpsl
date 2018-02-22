@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/home"><item android:id="@+id/nav_home" android:title="Home"/></group><!--android:icon="@drawable/ic_menu_home"-->
+    <item android:id="@+id/dictionary" android:title="Dictionary" /> <!--android:icon="@drawable/ic_noun_1026586_cc"/>-->
+    <item android:id="@+id/history" android:title="History" /><!--android:icon="@drawable/ic_history" />-->
+    <item android:id="@+id/commonphrase" android:title="Common phrases" /><!--android:icon="@drawable/ic_commonphrases"/>-->
+    <item android:id="@+id/language" android:title="Language" /><!--android:icon="@drawable/ic_lan"/>-->
+    <item android:id="@+id/about" android:title="About" /> <!--android:icon="@drawable/ic_about"/>-->
+   </menu>
