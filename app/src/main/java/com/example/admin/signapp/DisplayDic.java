@@ -32,36 +32,35 @@ public class DisplayDic extends AppCompatActivity implements View.OnClickListene
         else if (choice == 3)
             position = position + 46;
 
-        /* Array which contains id for Alphabets, Numbers and Frequently Used words stored in drawable */
+
         int[] bLogos = {
-                R.drawable.sl,
-                R.drawable.sl
-                /*R.drawable.frame_001,
-                R.drawable.frame_002,
-                R.drawable.frame_003,
-                R.drawable.frame_004,
-                R.drawable.frame_005,
-                R.drawable.frame_006,
-                R.drawable.frame_007,
-                R.drawable.frame_008,
-                R.drawable.frame_009,
-                R.drawable.frame_010,
-                R.drawable.frame_011,
-                R.drawable.frame_012,
-                R.drawable.frame_013,
-                R.drawable.frame_014,
-                R.drawable.frame_015,
-                R.drawable.frame_016,
-                R.drawable.frame_017,
-                R.drawable.frame_018,
-                R.drawable.frame_019,
-                R.drawable.frame_020,
-                R.drawable.frame_021,
-                R.drawable.frame_022,
-                R.drawable.frame_023,
-                R.drawable.frame_024,
-                R.drawable.frame_025,
-                R.drawable.frame_026,
+
+                R.drawable.a,
+                R.drawable.b,
+                R.drawable.c,
+                R.drawable.d,
+                R.drawable.e,
+                R.drawable.f,
+                R.drawable.g,
+                R.drawable.h,
+                R.drawable.i,
+                R.drawable.j,
+                R.drawable.k,
+                R.drawable.l,
+                R.drawable.m,
+                R.drawable.n,
+                R.drawable.o,
+                R.drawable.p,
+                R.drawable.q,
+                R.drawable.r,
+                R.drawable.s,
+                R.drawable.t,
+                R.drawable.u,
+                R.drawable.v,
+                R.drawable.w,
+                R.drawable.x,
+                R.drawable.y,
+                R.drawable.z,
                 R.drawable.frame_027,
                 R.drawable.frame_028,
                 R.drawable.frame_029,
@@ -82,12 +81,24 @@ public class DisplayDic extends AppCompatActivity implements View.OnClickListene
                 R.drawable.frame_044,
                 R.drawable.frame_045,
                 R.drawable.frame_046,
-                R.drawable.frame_047,
-                R.drawable.frame_048,
-                R.drawable.frame_049,
-                R.drawable.frame_050,
-                R.drawable.frame_051,
-                R.drawable.frame_052*/
+//                R.drawable.Alif,
+//                R.drawable.Ba,
+//                R.drawable.Pa,
+                R.drawable.ta,
+//                R.drawable.Sa,
+//                R.drawable.Jeem,
+                R.drawable.che,
+//                R.drawable.Kha,
+//                R.drawable.Daal,
+                R.drawable.ta,
+//                R.drawable.Zaa,
+//                R.drawable.Zaad,
+//                R.drawable.Fa,
+                R.drawable.kaaf,
+                R.drawable.gaaf,
+//                R.drawable.Saad,
+//                R.drawable.seen,
+//                R.drawable.Sheen
         };
         int cImage = bLogos[position];
         imagev.setImageResource(cImage);
@@ -112,7 +123,7 @@ public class DisplayDic extends AppCompatActivity implements View.OnClickListene
                                 public void onClick(DialogInterface dialog, int id) {
                                     moveTaskToBack(true);
                                     Process.killProcess(Process.myPid());
-                                    System.exit(1);
+                                    System.exit(i1);
                                 }
                             })
                     .setNegativeButton(R.string.no, new DialogInterface.OnClickListener() {

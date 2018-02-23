@@ -2,10 +2,10 @@
     <string name="app_name">SignApp</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
-    <string name="knowmore">Sign Dictionary! Select one of these.</string>
-    <string name="Alphabets">Alphabets</string>
+    <string name="knowmore">PSL Dictionary! Learn basics first.</string>
+    <string name="Alphabets">English Alphabets</string>
     <string name="Numbers">Numbers</string>
-    <string name="fuw">Frequently used</string>
+    <string name="fuw">Urdu Alphabets</string>
     <string name="exit_application">Exit Application?</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>

@@ -93,11 +93,11 @@ public class Main2Activity extends AppCompatActivity  implements OnClickListener
                     String tokens[] = tokenizer.tokenize(strtxt);
                     textgen.setText(Arrays.toString(tokens));
                    /* Context context = null;
-                    AssetFileDescriptor fileDescriptor = context.getAssets().openFd("en_pos_maxent(1).bin");
+                    AssetFileDescriptor fileDescriptor = context.getAssets().openFd("en_pos_maxent(i1).bin");
                     FileInputStream inputStream = fileDescriptor.createInputStream();
                     POSModel posModel = new POSModel(inputStream);
 
-                    /*InputStream inputStream = new FileInputStream("C:\\Users\\admin\\Documents\\final year\\FYP\\SignApp\\app\\libs\\en-pos-maxent (1).bin");
+                    /*InputStream inputStream = new FileInputStream("C:\\Users\\admin\\Documents\\final year\\FYP\\SignApp\\app\\libs\\en-pos-maxent (i1).bin");
                     POSModel model = new POSModel(inputStream);
 
                     POSTaggerME tagger = new POSTaggerME(posModel);

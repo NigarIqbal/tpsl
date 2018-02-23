@@ -50,7 +50,8 @@ public class Main3Activity extends AppCompatActivity {
         for (int i = 0; i < imgs.length(); i++) {
             Bitmap bitmap = BitmapFactory.decodeResource(this.getResources(),
                     imgs.getResourceId(i, -1));
-            imageItems.add(new imageItem(bitmap, " " + i + 1));
+            int num=i+1;
+            imageItems.add(new imageItem(bitmap, " " + num));
         }
 
         return imageItems;

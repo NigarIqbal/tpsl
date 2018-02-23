@@ -20,8 +20,8 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_alignParentTop="true"
-                android:layout_alignParentLeft="true"/>
-               <!-- android:src="@drawable/backblue" -->
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/backblue" />
 
             <ImageButton
                 android:id="@+id/Exit_button"
@@ -29,7 +29,7 @@
                 android:layout_height="50dp"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"
-                android:src="@drawable/sl" />
+                android:src="@drawable/home" />
 
         </RelativeLayout>
 
